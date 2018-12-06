@@ -1,0 +1,431 @@
+# ToyTalk Category V3.5
+{
+    "type": "main",
+    "abbreviation": "",
+    "entries": [
+        {
+            "id": "02a77629-f813-4fbb-aa82-485d81050f29",
+            "type": "folder",
+            "metadata": {}
+        },
+        {
+            "id": "04673da5-309b-42f7-a714-c05a797b3267",
+            "type": "behavior",
+            "metadata": {
+                "behavior_id": "set_label",
+                "behavior_params": {
+                    "name": "LABEL_SUBJECT",
+                    "value": "test"
+                }
+            }
+        },
+        {
+            "id": "094730a9-6360-4f01-86c7-928f85165044",
+            "type": "response",
+            "metadata": {
+                "character": "1",
+                "user_data": "<UserData><PhraseHints>t,y,g</PhraseHints></UserData>"
+            }
+        },
+        {
+            "id": "0a39c851-34a0-4754-a725-d7229c0eb46b",
+            "type": "response",
+            "metadata": {
+                "character": "1"
+            }
+        },
+        {
+            "id": "0a52505d-ec32-4e6a-ae88-2943f3d787d0",
+            "type": "event",
+            "metadata": {
+                "event_id": "START_CONVERSATION"
+            }
+        },
+        {
+            "id": "124e3e1d-143a-4795-8ef4-b95728460975",
+            "type": "response",
+            "metadata": {
+                "character": "1",
+                "user_data": "<UserData><PhraseHints>h</PhraseHints></UserData>"
+            }
+        },
+        {
+            "id": "15a996f5-ae00-47cb-a6f7-a4b45db4ec0b",
+            "type": "event",
+            "metadata": {
+                "event_id": "uevent_global_user_not_looking_at_bot",
+                "interjection_params": "options={'segue_mode': 'event', 'repeat': 'no'};repeat=no;return=yes;segue_mode=event"
+            }
+        },
+        {
+            "id": "198ea564-7491-49f9-b093-068677daa1c7",
+            "type": "rule",
+            "metadata": {}
+        },
+        {
+            "id": "1d6bbd51-81ac-4d63-9444-adce88d0f97c",
+            "type": "rule",
+            "metadata": {}
+        },
+        {
+            "id": "29e21422-5a97-4ba1-b878-930548e2dab5",
+            "type": "behavior",
+            "metadata": {
+                "behavior_id": "no_op"
+            }
+        },
+        {
+            "id": "3207b1c6-1282-442d-9220-fc4baf27155f",
+            "type": "response",
+            "metadata": {
+                "character": "1"
+            }
+        },
+        {
+            "id": "3e668178-06fd-4d47-8d93-939aa717b668",
+            "type": "response",
+            "metadata": {
+                "character": "1"
+            }
+        },
+        {
+            "id": "40bfb47e-a2d2-4c76-8532-77ca8152b197",
+            "type": "activity",
+            "metadata": {
+                "activity_params": "default=no;global_ruleset=yes"
+            }
+        },
+        {
+            "id": "47ac1944-bb36-4b5e-a4bd-1e2aa0990b19",
+            "type": "event",
+            "metadata": {
+                "event_id": "test_event"
+            }
+        },
+        {
+            "id": "4d6cb251-bafb-4c72-b2bd-73c89fb7cdf1",
+            "type": "intent",
+            "metadata": {
+                "intent_id": "845a2a71-a5d5-4251-9d49-ee238d54f765",
+                "interjection_params": "options={'segue_mode': 'event', 'repeat': 'no'};repeat=no;return=yes;segue_mode=event"
+            }
+        },
+        {
+            "id": "5a632b8a-d796-494c-ada6-f3b02ce6e05c",
+            "type": "behavior",
+            "metadata": {
+                "behavior_id": "no_op"
+            }
+        },
+        {
+            "id": "5dd5b611-9873-4145-abb9-2af9407c2b44",
+            "type": "response",
+            "metadata": {
+                "character": "1"
+            }
+        },
+        {
+            "id": "5e7069c9-04b7-4bc0-8bfb-9bff9a53be36",
+            "type": "behavior",
+            "metadata": {
+                "behavior_id": "clear_label",
+                "behavior_params": {
+                    "name": "LABEL_SUBJECT"
+                }
+            }
+        },
+        {
+            "id": "600103c5-d69d-40f1-ad74-6c5580606ddd",
+            "type": "interjections",
+            "metadata": {}
+        },
+        {
+            "id": "6bd17177-5369-4be0-af5d-88b3a218bb0e",
+            "type": "behavior",
+            "metadata": {
+                "behavior_id": "set_flag",
+                "behavior_params": {
+                    "flag": "FLAG_UNITY_TEST_FLAG"
+                }
+            }
+        },
+        {
+            "id": "6f2072ba-c520-43c3-80b3-fa1bae19bc13",
+            "type": "response",
+            "metadata": {
+                "character": "1"
+            }
+        },
+        {
+            "id": "80a55df0-c4ec-488a-b006-79a0add34654",
+            "type": "rule",
+            "metadata": {}
+        },
+        {
+            "id": "9b8dd2e4-94bf-4d50-a81d-639be66f0a21",
+            "type": "response",
+            "metadata": {
+                "character": "1",
+                "condition": "flag_is_not_set unity_test_flag"
+            }
+        },
+        {
+            "id": "9bed429b-8b48-400d-be17-b454d35a5a2a",
+            "type": "rule",
+            "metadata": {}
+        },
+        {
+            "id": "9dc743a8-ccde-4f07-9399-da8040f7be07",
+            "type": "behavior",
+            "metadata": {
+                "behavior_id": "repeat"
+            }
+        },
+        {
+            "id": "a8a1ab58-3323-4c6b-adae-7ba8a44c30b3",
+            "type": "response",
+            "metadata": {
+                "character": "1"
+            }
+        },
+        {
+            "id": "b2a0a92c-8cb2-404b-8a57-5a8c6b03453e",
+            "type": "event",
+            "metadata": {
+                "event_id": "uevent_global_reprompt",
+                "interjection_params": "options={'repeat': 'no', 'segue_mode': 'event'};repeat=no;return=yes;segue_mode=event"
+            }
+        },
+        {
+            "id": "bc659966-2777-40c0-b725-8eeef10b1a5d",
+            "type": "activity",
+            "metadata": {
+                "activity_params": "default=no;global_ruleset=yes"
+            }
+        },
+        {
+            "id": "c62f9948-f513-4348-aa86-baa96eead880",
+            "type": "reference",
+            "metadata": {
+                "reference_id": "02a77629-f813-4fbb-aa82-485d81050f29"
+            }
+        },
+        {
+            "id": "c88d2547-f0f6-4c2a-9b17-90b5fd0bd29a",
+            "type": "response",
+            "metadata": {
+                "character": "1",
+                "condition": "flag_is_set unity_test_flag"
+            }
+        },
+        {
+            "id": "ceadba07-5257-4b98-b189-b99928a13b48",
+            "type": "behavior",
+            "metadata": {
+                "behavior_id": "test_behavior",
+                "behavior_params": {
+                    "param1": [
+                        "6995301f-e621-4237-abd3-c2b0c5b52ffd"
+                    ],
+                    "param2": "yes",
+                    "param3": "1",
+                    "untitled_param": "#3d6454",
+                    "untitled_param_10": "",
+                    "untitled_param_11": "",
+                    "untitled_param_12": "",
+                    "untitled_param_13": "",
+                    "untitled_param_2": "id1",
+                    "untitled_param_3": "COUNTER_SPEED_VALUE",
+                    "untitled_param_4": "$(COUNTER_CURRENCY_VALUE)",
+                    "untitled_param_5": "",
+                    "untitled_param_6": 3,
+                    "untitled_param_7": "",
+                    "untitled_param_8": {
+                        "untitled_param": "bla"
+                    },
+                    "untitled_param_9": ""
+                }
+            }
+        },
+        {
+            "id": "d1340401-fd3c-461b-bc8c-d024b37f238f",
+            "type": "event",
+            "metadata": {
+                "event_id": "START_CONVERSATION"
+            }
+        },
+        {
+            "id": "d690d1d8-8f72-4450-b529-2051336202f6",
+            "type": "event",
+            "metadata": {
+                "event_id": "uevent_global_user_not_in_view",
+                "interjection_params": "options={'segue_mode': 'event', 'repeat': 'no'};repeat=no;return=yes;segue_mode=event"
+            }
+        },
+        {
+            "id": "de3b19e1-9b8e-4efc-9a43-67bd5fde5906",
+            "type": "behavior",
+            "metadata": {
+                "behavior_id": "switch_activity",
+                "behavior_params": {
+                    "id": "40bfb47e-a2d2-4c76-8532-77ca8152b197"
+                }
+            }
+        },
+        {
+            "id": "df551376-cbc8-4ce2-9711-c5bfea5cdb57",
+            "type": "response",
+            "metadata": {
+                "character": "1",
+                "user_data": "<UserData><Markup>Prague&lt;mark name='anim.Tense'/&gt; &lt;voice emotion='cross'&gt;is the beer capital&lt;/voice&gt; of the world</Markup><PhraseHints>p,q</PhraseHints></UserData>"
+            }
+        },
+        {
+            "id": "ea1784e0-dd11-4046-a4db-bacc9d4ff076",
+            "type": "response",
+            "metadata": {
+                "character": "1"
+            }
+        },
+        {
+            "id": "ef164890-8283-40f3-a44c-775b6ad48256",
+            "type": "behavior",
+            "metadata": {
+                "behavior_id": "test_behavior",
+                "behavior_params": {
+                    "param1": [],
+                    "param2": "dvds",
+                    "param3": "",
+                    "untitled_param": "",
+                    "untitled_param_10": "",
+                    "untitled_param_11": "",
+                    "untitled_param_12": "",
+                    "untitled_param_13": "",
+                    "untitled_param_2": "",
+                    "untitled_param_3": "",
+                    "untitled_param_4": 0.0,
+                    "untitled_param_5": "",
+                    "untitled_param_6": 3.0,
+                    "untitled_param_7": "",
+                    "untitled_param_8": "",
+                    "untitled_param_9": ""
+                }
+            }
+        },
+        {
+            "id": "f8c6b9b2-7a49-4fa2-8a5b-54860297a009",
+            "type": "interjections",
+            "metadata": {}
+        }
+    ],
+    "structure": [
+        "bc659966-2777-40c0-b725-8eeef10b1a5d",
+        [
+            "0a52505d-ec32-4e6a-ae88-2943f3d787d0",
+            [
+                "c62f9948-f513-4348-aa86-baa96eead880",
+                [
+                    "1d6bbd51-81ac-4d63-9444-adce88d0f97c",
+                    [
+                        "6bd17177-5369-4be0-af5d-88b3a218bb0e"
+                    ]
+                ],
+                [
+                    "9bed429b-8b48-400d-be17-b454d35a5a2a",
+                    [
+                        "5dd5b611-9873-4145-abb9-2af9407c2b44"
+                    ]
+                ]
+            ]
+        ],
+        [
+            "02a77629-f813-4fbb-aa82-485d81050f29",
+            [
+                "a8a1ab58-3323-4c6b-adae-7ba8a44c30b3"
+            ]
+        ],
+        [
+            "600103c5-d69d-40f1-ad74-6c5580606ddd",
+            [
+                "4d6cb251-bafb-4c72-b2bd-73c89fb7cdf1",
+                [
+                    "c88d2547-f0f6-4c2a-9b17-90b5fd0bd29a"
+                ],
+                [
+                    "9b8dd2e4-94bf-4d50-a81d-639be66f0a21"
+                ]
+            ]
+        ],
+        "40bfb47e-a2d2-4c76-8532-77ca8152b197",
+        [
+            "d1340401-fd3c-461b-bc8c-d024b37f238f",
+            [
+                "5e7069c9-04b7-4bc0-8bfb-9bff9a53be36",
+                [
+                    "124e3e1d-143a-4795-8ef4-b95728460975",
+                    [
+                        "ceadba07-5257-4b98-b189-b99928a13b48"
+                    ]
+                ]
+            ],
+            [
+                "04673da5-309b-42f7-a714-c05a797b3267",
+                [
+                    "094730a9-6360-4f01-86c7-928f85165044",
+                    [
+                        "47ac1944-bb36-4b5e-a4bd-1e2aa0990b19"
+                    ],
+                    [
+                        "80a55df0-c4ec-488a-b006-79a0add34654",
+                        [
+                            "3207b1c6-1282-442d-9220-fc4baf27155f",
+                            [
+                                "ef164890-8283-40f3-a44c-775b6ad48256"
+                            ]
+                        ]
+                    ],
+                    [
+                        "198ea564-7491-49f9-b093-068677daa1c7",
+                        [
+                            "df551376-cbc8-4ce2-9711-c5bfea5cdb57",
+                            [
+                                "de3b19e1-9b8e-4efc-9a43-67bd5fde5906"
+                            ]
+                        ]
+                    ]
+                ]
+            ]
+        ],
+        "f8c6b9b2-7a49-4fa2-8a5b-54860297a009",
+        [
+            "b2a0a92c-8cb2-404b-8a57-5a8c6b03453e",
+            [
+                "9dc743a8-ccde-4f07-9399-da8040f7be07"
+            ]
+        ],
+        [
+            "d690d1d8-8f72-4450-b529-2051336202f6",
+            [
+                "29e21422-5a97-4ba1-b878-930548e2dab5",
+                [
+                    "ea1784e0-dd11-4046-a4db-bacc9d4ff076"
+                ],
+                [
+                    "3e668178-06fd-4d47-8d93-939aa717b668"
+                ]
+            ]
+        ],
+        [
+            "15a996f5-ae00-47cb-a6f7-a4b45db4ec0b",
+            [
+                "5a632b8a-d796-494c-ada6-f3b02ce6e05c",
+                [
+                    "6f2072ba-c520-43c3-80b3-fa1bae19bc13"
+                ],
+                [
+                    "0a39c851-34a0-4754-a725-d7229c0eb46b"
+                ]
+            ]
+        ]
+    ]
+}

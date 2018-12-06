@@ -1,0 +1,116 @@
+# ToyTalk Category V3.5
+{
+    "type": "main",
+    "abbreviation": "",
+    "entries": [
+        {
+            "id": "113bc55f-842e-41b2-8765-2ec74f6ff5bf",
+            "type": "event",
+            "metadata": {
+                "event_id": "START_CONVERSATION"
+            }
+        },
+        {
+            "id": "6c5a3a4b-bbc1-46d0-8eca-bcde1de10503",
+            "type": "behavior",
+            "metadata": {
+                "behavior_id": "switch_activity",
+                "behavior_params": {
+                    "id": "8c2a50fe-a987-42fb-8f6b-17c1a8d27fdf"
+                }
+            }
+        },
+        {
+            "id": "7b4bcfbd-17e7-4782-ac74-14ac4512dae7",
+            "type": "behavior",
+            "metadata": {
+                "behavior_id": "swap_project",
+                "behavior_params": {
+                    "new_project": "AboutBo"
+                }
+            }
+        },
+        {
+            "id": "86c03346-d55f-477a-851b-e5b87c76274c",
+            "type": "activity",
+            "metadata": {
+                "activity_params": "default=no;global_ruleset=yes",
+                "enabled": "yes"
+            }
+        },
+        {
+            "id": "892e3893-bc6b-4a81-9a0c-9fc97b1ff949",
+            "type": "event",
+            "metadata": {
+                "event_id": "START_CONVERSATION"
+            }
+        },
+        {
+            "id": "8c2a50fe-a987-42fb-8f6b-17c1a8d27fdf",
+            "type": "activity",
+            "metadata": {
+                "activity_params": "default=no;global_ruleset=yes",
+                "enabled": "yes"
+            }
+        },
+        {
+            "id": "946f07c0-e857-480f-a60b-eb18ab51fec1",
+            "type": "behavior",
+            "metadata": {
+                "behavior_id": "swap_project",
+                "behavior_params": {
+                    "new_project": "EmbodiedBo"
+                }
+            }
+        },
+        {
+            "id": "9e699252-1737-4399-a47e-05abb873134b",
+            "type": "activity",
+            "metadata": {
+                "activity_params": "default=no;global_ruleset=yes",
+                "enabled": "yes"
+            }
+        },
+        {
+            "id": "c7dc27d2-2318-452b-b33f-7583ec390621",
+            "type": "event",
+            "metadata": {
+                "event_id": "START_CONVERSATION"
+            }
+        },
+        {
+            "id": "cd92ff01-c9b1-449b-abb3-d9957c688b3b",
+            "type": "response",
+            "metadata": {
+                "character": "1",
+                "user_data": "<UserData><Version>0.1.0</Version><PhraseHints /><Markup>Here is some markup</Markup><MarkupTree>Test data in markup tree</MarkupTree></UserData>"
+            }
+        }
+    ],
+    "structure": [
+        "86c03346-d55f-477a-851b-e5b87c76274c",
+        [
+            "c7dc27d2-2318-452b-b33f-7583ec390621",
+            [
+                "946f07c0-e857-480f-a60b-eb18ab51fec1"
+            ]
+        ],
+        "8c2a50fe-a987-42fb-8f6b-17c1a8d27fdf",
+        [
+            "113bc55f-842e-41b2-8765-2ec74f6ff5bf",
+            [
+                "7b4bcfbd-17e7-4782-ac74-14ac4512dae7"
+            ]
+        ],
+        "9e699252-1737-4399-a47e-05abb873134b",
+        [
+            "892e3893-bc6b-4a81-9a0c-9fc97b1ff949",
+            [
+                "cd92ff01-c9b1-449b-abb3-d9957c688b3b",
+                [
+                    "6c5a3a4b-bbc1-46d0-8eca-bcde1de10503"
+                ]
+            ]
+        ]
+    ]
+}

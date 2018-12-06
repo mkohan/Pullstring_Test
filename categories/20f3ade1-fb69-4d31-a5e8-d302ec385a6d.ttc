@@ -1,0 +1,128 @@
+# ToyTalk Category V3.5
+{
+    "type": "main",
+    "abbreviation": "",
+    "entries": [
+        {
+            "id": "204bad56-9201-49c8-80dd-c28ed3fda81f",
+            "type": "activity",
+            "metadata": {
+                "activity_params": "default=no;global_ruleset=yes",
+                "enabled": "yes"
+            }
+        },
+        {
+            "id": "41fe11d0-e13f-4a8d-a062-15621426cff0",
+            "type": "reference",
+            "metadata": {
+                "reference_id": "729d6d77-30ae-459a-93d4-c38ff6a40131"
+            }
+        },
+        {
+            "id": "49f07925-02a8-4609-9864-6a4e30d1877c",
+            "type": "event",
+            "metadata": {
+                "event_id": "START_CONVERSATION"
+            }
+        },
+        {
+            "id": "50ede4c2-6949-4226-8124-9418dd0ef275",
+            "type": "response",
+            "metadata": {
+                "character": "1"
+            }
+        },
+        {
+            "id": "5a5cd2c5-478b-493a-ac91-f708b71c2e4b",
+            "type": "behavior",
+            "metadata": {
+                "behavior_id": "WAIT_EVENT",
+                "behavior_params": {
+                    "timeout": 2.1
+                }
+            }
+        },
+        {
+            "id": "5c02e51c-4d12-4256-9df3-5338fcd600dc",
+            "type": "response",
+            "metadata": {
+                "character": "1"
+            }
+        },
+        {
+            "id": "6338c874-3d70-4385-9ffa-382063c9bb30",
+            "type": "response",
+            "metadata": {
+                "character": "1"
+            }
+        },
+        {
+            "id": "6d8b2a01-0074-4d3a-8efa-ea44c96befdd",
+            "type": "folder",
+            "metadata": {}
+        },
+        {
+            "id": "729d6d77-30ae-459a-93d4-c38ff6a40131",
+            "type": "behavior",
+            "metadata": {
+                "behavior_id": "no_op"
+            }
+        },
+        {
+            "id": "bfa37dd3-0feb-4a0e-aceb-6b70fdf30244",
+            "type": "rule",
+            "metadata": {}
+        },
+        {
+            "id": "c16c495b-aa45-4727-acd1-26c6383ac2bf",
+            "type": "response",
+            "metadata": {
+                "character": "1"
+            }
+        },
+        {
+            "id": "f1b197b3-3a21-46a4-b6b9-012e56675e7e",
+            "type": "behavior",
+            "metadata": {
+                "behavior_id": "WAIT_EVENT",
+                "behavior_params": {
+                    "timeout": 1.1
+                }
+            }
+        }
+    ],
+    "structure": [
+        "204bad56-9201-49c8-80dd-c28ed3fda81f",
+        [
+            "49f07925-02a8-4609-9864-6a4e30d1877c",
+            [
+                "50ede4c2-6949-4226-8124-9418dd0ef275",
+                [
+                    "f1b197b3-3a21-46a4-b6b9-012e56675e7e",
+                    [
+                        "41fe11d0-e13f-4a8d-a062-15621426cff0",
+                        [
+                            "5a5cd2c5-478b-493a-ac91-f708b71c2e4b",
+                            [
+                                "6338c874-3d70-4385-9ffa-382063c9bb30",
+                                [
+                                    "bfa37dd3-0feb-4a0e-aceb-6b70fdf30244",
+                                    [
+                                        "5c02e51c-4d12-4256-9df3-5338fcd600dc"
+                                    ]
+                                ]
+                            ]
+                        ]
+                    ]
+                ]
+            ]
+        ],
+        "6d8b2a01-0074-4d3a-8efa-ea44c96befdd",
+        [
+            "729d6d77-30ae-459a-93d4-c38ff6a40131",
+            [
+                "c16c495b-aa45-4727-acd1-26c6383ac2bf"
+            ]
+        ]
+    ]
+}

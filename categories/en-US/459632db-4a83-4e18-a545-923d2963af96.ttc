@@ -1,0 +1,36 @@
+# ToyTalk Category V3.5
+{
+    "type": "override",
+    "entries": [
+        {
+            "id": "0c702ff8-416d-42e2-b8ef-dda48623796f",
+            "metadata": {
+                "manual_phonemes": false,
+                "notes": "+animationName+:+rig3_rightArmExtend_clip+",
+                "placeholder_audio": false,
+                "status": "final",
+                "value": "<text>Remember, [Label ip_002_heroHonorific], in these stories, ye can do four things: ye can battle, speak,  run away, or ye can ask your trusty squire (that's me!) to help! Battle, Speak, Run Away or Squire! Give it a try!</text><markup>&lt;mark name=\"cmd:attachment,data:{+command+:0,+label+:+mustache+,+duration+:0.0,+transition+:0.25,+layer+:0}\"/&gt;Remember, [Label ip_002_heroHonorific], in these stories, ye can do four things: &lt;mark name=\"cmd:armGestures,data:{+animationName+:+rig3_rightArmPoint_clip+}\"/&gt;ye can battle, &lt;mark name=\"cmd:armGestures,data:{+animationName+:+rig3_leftArmPoint_clip+}\"/&gt;speak,  &lt;mark name=\"cmd:armGestures,data:{+animationName+:+rig3_armsUp_clip+}\"/&gt;run away, or ye can ask your trusty squire &lt;mark name=\"cmd:bodyGestures,data:{+animationName+:+rig3_secretGesture_clip+}\"/&gt;(that's me!) to help! &lt;mark name=\"cmd:playaudio,data:{+SoundToPlay+:+ip_cue_sound_option_present+,+LoopSound+:false,+playInBackground+:false,+ReplaceCurrentSound+:false,+PlayImmediate+:true,+Volume+:1.0}\"/&gt;&lt;break time=\"0.75s\"/&gt;&lt;mark name=\"cmd:armGestures,data:{+animationName+:+rig3_rightArmPoint_clip+}\"/&gt;Battle, &lt;mark name=\"cmd:armGestures,data:{+animationName+:+rig3_leftArmPoint_clip+}\"/&gt;Speak, &lt;mark name=\"cmd:armGestures,data:{+animationName+:+rig3_armsUp_clip+}\"/&gt;Run Away or &lt;mark name=\"cmd:armGestures,data:{+animationName+:+rig3_rightArmExtend_clip+}\"/&gt;Squire! Give it a try!</markup>"
+            }
+        },
+        {
+            "id": "43f0f536-3187-41b4-b250-e6127b8b591f",
+            "metadata": {
+                "manual_phonemes": false,
+                "notes": "+SoundToPlay+:+jokes_cue_snarehit+,+LoopSound+:false,+playInBackground+:false,+ReplaceCurrentSound+:false,+PlayImmediate+:true,+Volume+:1.0",
+                "placeholder_audio": false,
+                "status": "final",
+                "value": "[Label jokes_knockknock_punchline]&lt;mark name=\"cmd:playaudio,data:{+SoundToPlay+:+jokes_cue_snarehit+,+LoopSound+:false,+playInBackground+:false,+ReplaceCurrentSound+:false,+PlayImmediate+:true,+Volume+:1.0}\"/&gt;"
+            }
+        },
+        {
+            "id": "da0ca358-0c79-4417-b175-702d8f1b588d",
+            "metadata": {
+                "value": "Test markup views"
+            }
+        },
+        {
+            "id": "f8fe14f0-3df2-428f-909a-033cce90c644",
+            "metadata": {}
+        }
+    ]
+}

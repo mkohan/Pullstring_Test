@@ -1,0 +1,82 @@
+# ToyTalk Category V3.5
+{
+    "type": "override",
+    "entries": [
+        {
+            "id": "204bad56-9201-49c8-80dd-c28ed3fda81f",
+            "metadata": {
+                "value": "Timing Test Activity"
+            }
+        },
+        {
+            "id": "41fe11d0-e13f-4a8d-a062-15621426cff0",
+            "metadata": {}
+        },
+        {
+            "id": "49f07925-02a8-4609-9864-6a4e30d1877c",
+            "metadata": {}
+        },
+        {
+            "id": "50ede4c2-6949-4226-8124-9418dd0ef275",
+            "metadata": {
+                "manual_phonemes": false,
+                "placeholder_audio": false,
+                "status": "final",
+                "value": "first I'm speaking the first response, isn't this neat."
+            }
+        },
+        {
+            "id": "5a5cd2c5-478b-493a-ac91-f708b71c2e4b",
+            "metadata": {}
+        },
+        {
+            "id": "5c02e51c-4d12-4256-9df3-5338fcd600dc",
+            "metadata": {
+                "manual_phonemes": false,
+                "placeholder_audio": false,
+                "status": "final",
+                "value": "yes response"
+            }
+        },
+        {
+            "id": "6338c874-3d70-4385-9ffa-382063c9bb30",
+            "metadata": {
+                "manual_phonemes": false,
+                "placeholder_audio": false,
+                "status": "final",
+                "value": "and finally the third response, sequence done now."
+            }
+        },
+        {
+            "id": "6d8b2a01-0074-4d3a-8efa-ea44c96befdd",
+            "metadata": {
+                "value": "Folder"
+            }
+        },
+        {
+            "id": "729d6d77-30ae-459a-93d4-c38ff6a40131",
+            "metadata": {
+                "value": "Test Response Wait"
+            }
+        },
+        {
+            "id": "bfa37dd3-0feb-4a0e-aceb-6b70fdf30244",
+            "metadata": {
+                "value": "~yes"
+            }
+        },
+        {
+            "id": "c16c495b-aa45-4727-acd1-26c6383ac2bf",
+            "metadata": {
+                "manual_phonemes": false,
+                "placeholder_audio": false,
+                "status": "final",
+                "value": "Now I'm speaking the second response."
+            }
+        },
+        {
+            "id": "f1b197b3-3a21-46a4-b6b9-012e56675e7e",
+            "metadata": {}
+        }
+    ]
+}

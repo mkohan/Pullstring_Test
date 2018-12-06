@@ -1,0 +1,242 @@
+# ToyTalk Category V3.5
+{
+    "type": "override",
+    "entries": [
+        {
+            "id": "02a77629-f813-4fbb-aa82-485d81050f29",
+            "metadata": {
+                "value": "Flag tests"
+            }
+        },
+        {
+            "id": "04673da5-309b-42f7-a714-c05a797b3267",
+            "metadata": {}
+        },
+        {
+            "id": "094730a9-6360-4f01-86c7-928f85165044",
+            "metadata": {
+                "manual_phonemes": false,
+                "placeholder_audio": false,
+                "status": "final",
+                "value": "Test test"
+            }
+        },
+        {
+            "id": "0a39c851-34a0-4754-a725-d7229c0eb46b",
+            "metadata": {
+                "manual_phonemes": false,
+                "placeholder_audio": false,
+                "status": "final",
+                "value": "Please look at me when you're talking to me"
+            }
+        },
+        {
+            "id": "0a52505d-ec32-4e6a-ae88-2943f3d787d0",
+            "metadata": {}
+        },
+        {
+            "id": "124e3e1d-143a-4795-8ef4-b95728460975",
+            "metadata": {
+                "manual_phonemes": false,
+                "placeholder_audio": false,
+                "status": "final",
+                "value": "test"
+            }
+        },
+        {
+            "id": "15a996f5-ae00-47cb-a6f7-a4b45db4ec0b",
+            "metadata": {}
+        },
+        {
+            "id": "198ea564-7491-49f9-b093-068677daa1c7",
+            "metadata": {
+                "value": "~yes"
+            }
+        },
+        {
+            "id": "1d6bbd51-81ac-4d63-9444-adce88d0f97c",
+            "metadata": {
+                "value": "happy"
+            }
+        },
+        {
+            "id": "29e21422-5a97-4ba1-b878-930548e2dab5",
+            "metadata": {
+                "value": "Move Into Frame Prompt"
+            }
+        },
+        {
+            "id": "3207b1c6-1282-442d-9220-fc4baf27155f",
+            "metadata": {
+                "manual_phonemes": false,
+                "placeholder_audio": false,
+                "status": "final",
+                "value": "Tester"
+            }
+        },
+        {
+            "id": "3e668178-06fd-4d47-8d93-939aa717b668",
+            "metadata": {
+                "manual_phonemes": false,
+                "placeholder_audio": false,
+                "status": "final",
+                "value": "I can't see you, please move in front of me."
+            }
+        },
+        {
+            "id": "40bfb47e-a2d2-4c76-8532-77ca8152b197",
+            "metadata": {
+                "value": "Untitled Activity 2"
+            }
+        },
+        {
+            "id": "47ac1944-bb36-4b5e-a4bd-1e2aa0990b19",
+            "metadata": {}
+        },
+        {
+            "id": "4d6cb251-bafb-4c72-b2bd-73c89fb7cdf1",
+            "metadata": {
+                "value": "yes_factual"
+            }
+        },
+        {
+            "id": "5a632b8a-d796-494c-ada6-f3b02ce6e05c",
+            "metadata": {
+                "value": "Look At Me Prompt"
+            }
+        },
+        {
+            "id": "5dd5b611-9873-4145-abb9-2af9407c2b44",
+            "metadata": {
+                "manual_phonemes": false,
+                "placeholder_audio": false,
+                "status": "final",
+                "value": "Yep, returned to original context"
+            }
+        },
+        {
+            "id": "5e7069c9-04b7-4bc0-8bfb-9bff9a53be36",
+            "metadata": {}
+        },
+        {
+            "id": "600103c5-d69d-40f1-ad74-6c5580606ddd",
+            "metadata": {
+                "value": "Flag Test"
+            }
+        },
+        {
+            "id": "6bd17177-5369-4be0-af5d-88b3a218bb0e",
+            "metadata": {}
+        },
+        {
+            "id": "6f2072ba-c520-43c3-80b3-fa1bae19bc13",
+            "metadata": {
+                "manual_phonemes": false,
+                "placeholder_audio": false,
+                "status": "final",
+                "value": "Looking at someone means you're paying attention to them. Please look at me."
+            }
+        },
+        {
+            "id": "80a55df0-c4ec-488a-b006-79a0add34654",
+            "metadata": {
+                "value": "~no"
+            }
+        },
+        {
+            "id": "9b8dd2e4-94bf-4d50-a81d-639be66f0a21",
+            "metadata": {
+                "manual_phonemes": false,
+                "placeholder_audio": false,
+                "status": "final",
+                "value": "Testing flag is not set"
+            }
+        },
+        {
+            "id": "9bed429b-8b48-400d-be17-b454d35a5a2a",
+            "metadata": {
+                "value": "~not"
+            }
+        },
+        {
+            "id": "9dc743a8-ccde-4f07-9399-da8040f7be07",
+            "metadata": {}
+        },
+        {
+            "id": "a8a1ab58-3323-4c6b-adae-7ba8a44c30b3",
+            "metadata": {
+                "manual_phonemes": false,
+                "placeholder_audio": false,
+                "status": "final",
+                "value": "Testing no condition"
+            }
+        },
+        {
+            "id": "b2a0a92c-8cb2-404b-8a57-5a8c6b03453e",
+            "metadata": {}
+        },
+        {
+            "id": "bc659966-2777-40c0-b725-8eeef10b1a5d",
+            "metadata": {
+                "value": "Untitled Activity"
+            }
+        },
+        {
+            "id": "c62f9948-f513-4348-aa86-baa96eead880",
+            "metadata": {}
+        },
+        {
+            "id": "c88d2547-f0f6-4c2a-9b17-90b5fd0bd29a",
+            "metadata": {
+                "manual_phonemes": false,
+                "placeholder_audio": false,
+                "status": "final",
+                "value": "Testing flag is set"
+            }
+        },
+        {
+            "id": "ceadba07-5257-4b98-b189-b99928a13b48",
+            "metadata": {}
+        },
+        {
+            "id": "d1340401-fd3c-461b-bc8c-d024b37f238f",
+            "metadata": {}
+        },
+        {
+            "id": "d690d1d8-8f72-4450-b529-2051336202f6",
+            "metadata": {}
+        },
+        {
+            "id": "de3b19e1-9b8e-4efc-9a43-67bd5fde5906",
+            "metadata": {}
+        },
+        {
+            "id": "df551376-cbc8-4ce2-9711-c5bfea5cdb57",
+            "metadata": {
+                "manual_phonemes": false,
+                "placeholder_audio": false,
+                "status": "final",
+                "value": "Prague is the beer capital of the world"
+            }
+        },
+        {
+            "id": "ea1784e0-dd11-4046-a4db-bacc9d4ff076",
+            "metadata": {
+                "manual_phonemes": false,
+                "placeholder_audio": false,
+                "status": "final",
+                "value": "Are you there? I can't see you"
+            }
+        },
+        {
+            "id": "ef164890-8283-40f3-a44c-775b6ad48256",
+            "metadata": {}
+        },
+        {
+            "id": "f8c6b9b2-7a49-4fa2-8a5b-54860297a009",
+            "metadata": {
+                "value": "Engagement Events"
+            }
+        }
+    ]
+}

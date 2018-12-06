@@ -1,0 +1,56 @@
+# ToyTalk Project V2.13
+{
+    "audio_package_mode": "none",
+    "categories": [
+        [
+            "a3e4a4c1-ddd1-4c94-b48c-cdeddb5c46e5",
+            "Untitled Category"
+        ],
+        [
+            "0f68d7da-df4c-4326-8ec0-d5443c5271f9",
+            "Line Folders"
+        ],
+        [
+            "35d9b91c-9baf-4980-9aef-073aaa449245",
+            "context"
+        ],
+        [
+            "459632db-4a83-4e18-a545-923d2963af96",
+            "Default Activity Name"
+        ],
+        [
+            "20f3ade1-fb69-4d31-a5e8-d302ec385a6d",
+            "Timing Tests"
+        ],
+        [
+            "26cbdfa9-add0-4633-9a3c-278f48a6e16f",
+            "Project Swap"
+        ],
+        [
+            "0862459d-be6e-4cce-b792-4f21f97bd97e",
+            "BehaviorTests"
+        ],
+        [
+            "c5fd76f8-eb37-4189-8b41-e371995ae453",
+            "Pattern Test"
+        ]
+    ],
+    "default_language": "en-US",
+    "ducking_level": "-14",
+    "id": "9c9a1bee-ae72-4b76-a349-0eeff539260e",
+    "languages": [
+        "en-US"
+    ],
+    "luis_min_confidence": 0.0,
+    "name": "Test",
+    "platforms": [],
+    "project_type": "text",
+    "require_approval": false,
+    "resolutions": [],
+    "strip_notes": false,
+    "template_used": "Blank",
+    "typing_indicator_max_ms": 2500,
+    "typing_indicator_min_ms": 50,
+    "typing_indicator_per_word_ms": 400,
+    "wit_min_confidence": 0.0
+}

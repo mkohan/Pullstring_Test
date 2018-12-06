@@ -1,0 +1,52 @@
+# ToyTalk Project V2.13
+{
+    "events": [
+        {
+            "icon": "icon-events.png",
+            "intelligence_id": "reprompt_event",
+            "name": "RePrompt Event",
+            "parameters": []
+        },
+        {
+            "description": "A test event",
+            "icon": "icon-events.png",
+            "intelligence_id": "test_event",
+            "name": "Test Event",
+            "parameters": [
+                "id=param1;type=flag",
+                "id=param2;type=label",
+                "id=param3;type=counter",
+                "id=param4;type=list"
+            ]
+        },
+        {
+            "icon": "icon-events.png",
+            "intelligence_id": "uevent_global_nlp",
+            "name": "uevent_global_nlp",
+            "parameters": [
+                "id=processed_text;type=label"
+            ]
+        },
+        {
+            "icon": "icon-events.png",
+            "intelligence_id": "uevent_global_reprompt",
+            "interjection_params": "follow_fallback=no;options={'repeat': 'no', 'follow_fallback': 'no', 'response_id': '', 'segue_mode': 'none'};repeat=no;return=no;segue_mode=none",
+            "name": "uevent_global_reprompt",
+            "parameters": []
+        },
+        {
+            "icon": "icon-events.png",
+            "intelligence_id": "uevent_global_user_not_in_view",
+            "interjection_params": "follow_fallback=no;options={'repeat': 'no', 'follow_fallback': 'no', 'response_id': '', 'segue_mode': 'none'};repeat=no;return=yes;segue_mode=none",
+            "name": "uevent_global_user_not_in_view",
+            "parameters": []
+        },
+        {
+            "icon": "icon-events.png",
+            "intelligence_id": "uevent_global_user_not_looking_at_bot",
+            "interjection_params": "follow_fallback=no;options={'repeat': 'no', 'follow_fallback': 'no', 'response_id': '', 'segue_mode': 'none'};repeat=no;return=yes;segue_mode=none",
+            "name": "uevent_global_user_not_looking_at_bot",
+            "parameters": []
+        }
+    ]
+}

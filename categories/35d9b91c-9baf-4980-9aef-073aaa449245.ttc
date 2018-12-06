@@ -1,0 +1,507 @@
+# ToyTalk Category V3.5
+{
+    "type": "main",
+    "abbreviation": "",
+    "entries": [
+        {
+            "id": "082cfbfa-140c-469e-b2de-a4cc9918ad30",
+            "type": "response",
+            "metadata": {
+                "character": "1",
+                "condition": "label subject == bee",
+                "user_data": "<UserData><Version>0.1.0</Version><PhraseHints /><Markup /><GoalType /><SpontaneousElicited /><MetricID /><GoalLevel /><PromptType /><SupportLevel /><Animation /><Emotion /><ResponseCorrect /></UserData>"
+            }
+        },
+        {
+            "id": "0c72cf24-57fd-42c6-bdce-88041c2b9961",
+            "type": "response",
+            "metadata": {
+                "character": "1",
+                "condition": "label subject is_empty "
+            }
+        },
+        {
+            "id": "0d51d37c-2ecf-4ab0-990c-4dc46c0500f6",
+            "type": "rule",
+            "metadata": {}
+        },
+        {
+            "id": "12fd2a74-3ed0-4ca8-babb-9d20de7b00d6",
+            "type": "rule",
+            "metadata": {}
+        },
+        {
+            "id": "18be3385-f546-403b-b8af-2d3e3b08697f",
+            "type": "activity",
+            "metadata": {
+                "activity_params": "default=no;global_ruleset=yes",
+                "enabled": "yes"
+            }
+        },
+        {
+            "id": "1a64f72f-4e7c-4810-97a1-1f6f65a488ca",
+            "type": "event",
+            "metadata": {
+                "event_id": "test_event",
+                "event_params": "param1=FLAG_UNITY_TEST_FLAG;param2=LABEL_SUBJECT",
+                "interjection_params": "options={'repeat': 'no', 'segue_mode': 'event'};repeat=no;return=yes;segue_mode=event"
+            }
+        },
+        {
+            "id": "298f79f6-ec3b-42e7-b15c-a338b31eb412",
+            "type": "response",
+            "metadata": {
+                "character": "1"
+            }
+        },
+        {
+            "id": "2bca418d-0b19-4fa2-a517-0a36ad04c03e",
+            "type": "response",
+            "metadata": {
+                "character": "1"
+            }
+        },
+        {
+            "id": "2c060355-186c-408b-bd46-dea4968366de",
+            "type": "response",
+            "metadata": {
+                "character": "1",
+                "condition": "label subject is_empty "
+            }
+        },
+        {
+            "id": "327b1585-0d48-4743-ba00-8503bd70b9a1",
+            "type": "behavior",
+            "metadata": {
+                "behavior_id": "switch_activity",
+                "behavior_params": {
+                    "id": "18be3385-f546-403b-b8af-2d3e3b08697f"
+                }
+            }
+        },
+        {
+            "id": "4121bafd-8aae-4f41-82f7-64edb6c15c39",
+            "type": "rule",
+            "metadata": {}
+        },
+        {
+            "id": "46b394bf-fc02-48c1-a2d7-cf479f0d77ba",
+            "type": "rule",
+            "metadata": {}
+        },
+        {
+            "id": "4ffec69a-8240-41a9-aea2-c413dbf89f23",
+            "type": "response",
+            "metadata": {
+                "character": "1"
+            }
+        },
+        {
+            "id": "517f534c-9d5a-4479-8e0b-3816582d9f96",
+            "type": "rule",
+            "metadata": {
+                "interjection_params": "options={'segue_mode': 'event', 'repeat': 'no'};repeat=no;return=yes;segue_mode=event"
+            }
+        },
+        {
+            "id": "565d9a90-d8ed-4be1-99e6-104fd6a96924",
+            "type": "behavior",
+            "metadata": {
+                "behavior_id": "repeat"
+            }
+        },
+        {
+            "id": "5c43b748-9767-478e-bb15-4eadee9f423c",
+            "type": "event",
+            "metadata": {
+                "event_id": "START_CONVERSATION"
+            }
+        },
+        {
+            "id": "61f4ec37-dd0c-495e-b093-fd08242bef0f",
+            "type": "interjections",
+            "metadata": {}
+        },
+        {
+            "id": "64c57c57-50c3-4cf6-8f10-c746f2ea2472",
+            "type": "response",
+            "metadata": {
+                "character": "1",
+                "user_data": "<UserData><Version>0.1.0</Version><PhraseHints>I like,,adore,am  into,be  into,dig,enjoy,idolize,in  love,is  into,like,liked,love,loved,passion for,revere,want,worship,who,,can,,</PhraseHints><Markup /><GoalType /><SpontaneousElicited /><MetricID /><GoalLevel /><PromptType /><SupportLevel /><Animation /><Emotion /><ResponseCorrect /></UserData>"
+            }
+        },
+        {
+            "id": "739ce380-bffd-4f77-975a-36904b32af56",
+            "type": "response",
+            "metadata": {
+                "character": "1"
+            }
+        },
+        {
+            "id": "8098955f-9232-49de-8c4d-81cccc4f22c9",
+            "type": "rule",
+            "metadata": {
+                "interjection_params": "options={'segue_mode': 'event', 'repeat': 'no'};repeat=no;return=yes;segue_mode=event"
+            }
+        },
+        {
+            "id": "81f1f709-47e8-4d4e-8a49-2906eb30c28f",
+            "type": "behavior",
+            "metadata": {
+                "behavior_id": "set_label",
+                "behavior_params": {
+                    "name": "LABEL_SUBJECT",
+                    "value": "tree"
+                }
+            }
+        },
+        {
+            "id": "832989ae-87a1-4390-a30e-d4da26ff26e1",
+            "type": "event",
+            "metadata": {
+                "event_id": "START_CONVERSATION"
+            }
+        },
+        {
+            "id": "9fb7a818-3bdc-475e-a841-f02cf122083d",
+            "type": "response",
+            "metadata": {
+                "character": "1"
+            }
+        },
+        {
+            "id": "a263f2a2-4976-496e-ac24-c2f394aebcd3",
+            "type": "response",
+            "metadata": {
+                "character": "1",
+                "condition": "label subject is_nonempty "
+            }
+        },
+        {
+            "id": "a2740455-e7ab-4448-b501-c397cb3b255b",
+            "type": "response",
+            "metadata": {
+                "character": "1",
+                "user_data": "<UserData><Version>0.1.0</Version><PhraseHints /><Markup /><GoalType /><SpontaneousElicited /><MetricID /><GoalLevel /><PromptType /><SupportLevel /><Animation /><Emotion /><ResponseCorrect /></UserData>"
+            }
+        },
+        {
+            "id": "acd7617e-03dd-449b-97d7-fc9e176fee2a",
+            "type": "response",
+            "metadata": {
+                "character": "1"
+            }
+        },
+        {
+            "id": "aff8ad8d-75a8-4d88-997f-6f695fea898b",
+            "type": "activity",
+            "metadata": {
+                "activity_params": "default=no;global_ruleset=yes",
+                "enabled": "yes"
+            }
+        },
+        {
+            "id": "b09eae7e-3fce-4e45-8e68-b906f1e11ef9",
+            "type": "event",
+            "metadata": {
+                "event_id": "START_CONVERSATION"
+            }
+        },
+        {
+            "id": "b1eae0de-3f0e-46bf-9d5c-73bb1f6093c7",
+            "type": "rule",
+            "metadata": {}
+        },
+        {
+            "id": "b458ce42-8dba-496b-afe8-8b1cad56ffc4",
+            "type": "activity",
+            "metadata": {
+                "activity_params": "default=no;global_ruleset=yes",
+                "enabled": "yes"
+            }
+        },
+        {
+            "id": "b9e1faf4-b70e-457e-aaf0-b130ab614fde",
+            "type": "behavior",
+            "metadata": {
+                "behavior_id": "set_label",
+                "behavior_params": {
+                    "name": "LABEL_SUBJECT",
+                    "value": "ant"
+                }
+            }
+        },
+        {
+            "id": "baff2be3-dd7c-4a42-b317-3ef2bae37adc",
+            "type": "rule",
+            "metadata": {}
+        },
+        {
+            "id": "bc760631-40e0-44f8-8415-9d62f131388c",
+            "type": "response",
+            "metadata": {
+                "character": "1",
+                "user_data": "<UserData><Version>0.1.0</Version><PhraseHints /><Markup>mark</Markup><GoalType /><SpontaneousElicited /><MetricID /><GoalLevel /><PromptType /><SupportLevel /><Animation /><Emotion /><ResponseCorrect /><RawString>bees are insects</RawString></UserData>"
+            }
+        },
+        {
+            "id": "c1907878-2d1e-4c17-9a27-90bfb3032901",
+            "type": "behavior",
+            "metadata": {
+                "behavior_id": "switch_activity",
+                "behavior_params": {
+                    "id": "18be3385-f546-403b-b8af-2d3e3b08697f"
+                }
+            }
+        },
+        {
+            "id": "c8b51cc6-5691-492c-bcc8-24984f804da8",
+            "type": "response",
+            "metadata": {
+                "character": "1"
+            }
+        },
+        {
+            "id": "cbfee4a9-9955-406d-90a6-7af29ab009f7",
+            "type": "event",
+            "metadata": {
+                "event_id": "reprompt_event",
+                "interjection_params": "options={'repeat': 'no', 'segue_mode': 'event'};repeat=no;return=yes;segue_mode=event"
+            }
+        },
+        {
+            "id": "ccd540e4-321f-4a3f-8927-f88087425154",
+            "type": "response",
+            "metadata": {
+                "character": "1",
+                "condition": "label subject == bee",
+                "user_data": "<UserData><Version>0.1.0</Version><PhraseHints /><Markup /><GoalType /><SpontaneousElicited /><MetricID /><GoalLevel /><PromptType /><SupportLevel /><Animation /><Emotion /><ResponseCorrect /></UserData>"
+            }
+        },
+        {
+            "id": "d4b416ca-ef21-4e96-b0d4-8815e234e5e1",
+            "type": "interjections",
+            "metadata": {}
+        },
+        {
+            "id": "d66fa1a8-b203-4912-804b-4aab842a47c4",
+            "type": "response",
+            "metadata": {
+                "character": "1",
+                "user_data": "<UserData><Version>0.1.0</Version><PhraseHints /><Markup /><GoalType /><SpontaneousElicited /><MetricID /><GoalLevel /><PromptType /><SupportLevel /><Animation /><Emotion /><ResponseCorrect /></UserData>"
+            }
+        },
+        {
+            "id": "d715ede5-7f18-4e8a-8cc4-836d102f0ae9",
+            "type": "rule",
+            "metadata": {
+                "interjection_params": "options={'segue_mode': 'event', 'repeat': 'no'};repeat=no;return=yes;segue_mode=event"
+            }
+        },
+        {
+            "id": "d7f289e6-4529-4df8-8a36-4520eeff4c93",
+            "type": "rule",
+            "metadata": {
+                "interjection_params": "follow_fallback=no;options={'segue_mode': 'event', 'response_id': '', 'follow_fallback': 'no', 'repeat': 'no'};repeat=no;return=yes;segue_mode=event;uber=no"
+            }
+        },
+        {
+            "id": "d80298b3-a4eb-4850-8516-211646c965ba",
+            "type": "rule",
+            "metadata": {}
+        },
+        {
+            "id": "e0bd639b-df86-48e7-81f3-f65f44915aad",
+            "type": "response",
+            "metadata": {
+                "character": "1",
+                "condition": "label subject == ant",
+                "user_data": "<UserData><Version>0.1.0</Version><PhraseHints /><Markup /><GoalType /><SpontaneousElicited /><MetricID /><GoalLevel /><PromptType /><SupportLevel /><Animation /><Emotion /><ResponseCorrect /></UserData>"
+            }
+        },
+        {
+            "id": "e8adef9e-e1bd-479d-8509-60e817d08181",
+            "type": "response",
+            "metadata": {
+                "character": "1"
+            }
+        },
+        {
+            "id": "ea3bf930-2317-44d7-8fd7-71d1c2897017",
+            "type": "rule",
+            "metadata": {}
+        },
+        {
+            "id": "ee978ec6-f10c-41b9-83fc-05483f41645d",
+            "type": "response",
+            "metadata": {
+                "character": "1",
+                "condition": "label subject is_nonempty "
+            }
+        },
+        {
+            "id": "f5ea0252-61d2-496d-af05-33fa6203f584",
+            "type": "response",
+            "metadata": {
+                "character": "1"
+            }
+        },
+        {
+            "id": "fdc1a1d4-36d1-45a1-89fa-d1a7167a3cbf",
+            "type": "rule",
+            "metadata": {
+                "interjection_params": "options={'segue_mode': 'event', 'repeat': 'no'};repeat=no;return=yes;segue_mode=event"
+            }
+        },
+        {
+            "id": "ffea532e-b0ce-4be4-af68-ceb5cd82f2bb",
+            "type": "behavior",
+            "metadata": {
+                "behavior_id": "set_label",
+                "behavior_params": {
+                    "name": "LABEL_SUBJECT",
+                    "value": "bee"
+                }
+            }
+        }
+    ],
+    "structure": [
+        "b458ce42-8dba-496b-afe8-8b1cad56ffc4",
+        [
+            "b09eae7e-3fce-4e45-8e68-b906f1e11ef9",
+            [
+                "ffea532e-b0ce-4be4-af68-ceb5cd82f2bb",
+                [
+                    "64c57c57-50c3-4cf6-8f10-c746f2ea2472",
+                    [
+                        "0d51d37c-2ecf-4ab0-990c-4dc46c0500f6",
+                        [
+                            "b9e1faf4-b70e-457e-aaf0-b130ab614fde",
+                            [
+                                "d66fa1a8-b203-4912-804b-4aab842a47c4"
+                            ]
+                        ]
+                    ],
+                    [
+                        "12fd2a74-3ed0-4ca8-babb-9d20de7b00d6",
+                        [
+                            "a2740455-e7ab-4448-b501-c397cb3b255b"
+                        ],
+                        [
+                            "bc760631-40e0-44f8-8415-9d62f131388c"
+                        ]
+                    ],
+                    [
+                        "ea3bf930-2317-44d7-8fd7-71d1c2897017",
+                        [
+                            "e8adef9e-e1bd-479d-8509-60e817d08181",
+                            [
+                                "327b1585-0d48-4743-ba00-8503bd70b9a1"
+                            ]
+                        ]
+                    ],
+                    [
+                        "d80298b3-a4eb-4850-8516-211646c965ba",
+                        [
+                            "c8b51cc6-5691-492c-bcc8-24984f804da8"
+                        ]
+                    ]
+                ]
+            ]
+        ],
+        "aff8ad8d-75a8-4d88-997f-6f695fea898b",
+        [
+            "5c43b748-9767-478e-bb15-4eadee9f423c",
+            [
+                "81f1f709-47e8-4d4e-8a49-2906eb30c28f",
+                [
+                    "4ffec69a-8240-41a9-aea2-c413dbf89f23",
+                    [
+                        "46b394bf-fc02-48c1-a2d7-cf479f0d77ba",
+                        [
+                            "739ce380-bffd-4f77-975a-36904b32af56",
+                            [
+                                "c1907878-2d1e-4c17-9a27-90bfb3032901"
+                            ]
+                        ]
+                    ],
+                    [
+                        "baff2be3-dd7c-4a42-b317-3ef2bae37adc",
+                        [
+                            "9fb7a818-3bdc-475e-a841-f02cf122083d"
+                        ]
+                    ],
+                    [
+                        "b1eae0de-3f0e-46bf-9d5c-73bb1f6093c7",
+                        [
+                            "2bca418d-0b19-4fa2-a517-0a36ad04c03e"
+                        ]
+                    ]
+                ]
+            ]
+        ],
+        "18be3385-f546-403b-b8af-2d3e3b08697f",
+        [
+            "832989ae-87a1-4390-a30e-d4da26ff26e1",
+            [
+                "a263f2a2-4976-496e-ac24-c2f394aebcd3",
+                [
+                    "4121bafd-8aae-4f41-82f7-64edb6c15c39",
+                    [
+                        "ee978ec6-f10c-41b9-83fc-05483f41645d"
+                    ],
+                    [
+                        "0c72cf24-57fd-42c6-bdce-88041c2b9961"
+                    ]
+                ]
+            ],
+            [
+                "2c060355-186c-408b-bd46-dea4968366de"
+            ]
+        ],
+        "61f4ec37-dd0c-495e-b093-fd08242bef0f",
+        [
+            "cbfee4a9-9955-406d-90a6-7af29ab009f7",
+            [
+                "298f79f6-ec3b-42e7-b15c-a338b31eb412",
+                [
+                    "565d9a90-d8ed-4be1-99e6-104fd6a96924"
+                ]
+            ]
+        ],
+        [
+            "1a64f72f-4e7c-4810-97a1-1f6f65a488ca",
+            [
+                "acd7617e-03dd-449b-97d7-fc9e176fee2a"
+            ]
+        ],
+        "d4b416ca-ef21-4e96-b0d4-8815e234e5e1",
+        [
+            "8098955f-9232-49de-8c4d-81cccc4f22c9"
+        ],
+        [
+            "d715ede5-7f18-4e8a-8cc4-836d102f0ae9"
+        ],
+        [
+            "517f534c-9d5a-4479-8e0b-3816582d9f96"
+        ],
+        [
+            "fdc1a1d4-36d1-45a1-89fa-d1a7167a3cbf"
+        ],
+        [
+            "d7f289e6-4529-4df8-8a36-4520eeff4c93",
+            [
+                "f5ea0252-61d2-496d-af05-33fa6203f584"
+            ],
+            [
+                "ccd540e4-321f-4a3f-8927-f88087425154"
+            ],
+            [
+                "e0bd639b-df86-48e7-81f3-f65f44915aad"
+            ],
+            [
+                "082cfbfa-140c-469e-b2de-a4cc9918ad30"
+            ]
+        ]
+    ]
+}

@@ -1,0 +1,48 @@
+# ToyTalk Category V3.5
+{
+    "type": "main",
+    "abbreviation": "",
+    "entries": [
+        {
+            "id": "0c702ff8-416d-42e2-b8ef-dda48623796f",
+            "type": "response",
+            "metadata": {
+                "character": "1"
+            }
+        },
+        {
+            "id": "43f0f536-3187-41b4-b250-e6127b8b591f",
+            "type": "response",
+            "metadata": {
+                "character": "1"
+            }
+        },
+        {
+            "id": "da0ca358-0c79-4417-b175-702d8f1b588d",
+            "type": "activity",
+            "metadata": {
+                "activity_params": "default=no;global_ruleset=yes",
+                "enabled": "yes"
+            }
+        },
+        {
+            "id": "f8fe14f0-3df2-428f-909a-033cce90c644",
+            "type": "event",
+            "metadata": {
+                "event_id": "START_CONVERSATION"
+            }
+        }
+    ],
+    "structure": [
+        "da0ca358-0c79-4417-b175-702d8f1b588d",
+        [
+            "f8fe14f0-3df2-428f-909a-033cce90c644",
+            [
+                "43f0f536-3187-41b4-b250-e6127b8b591f",
+                [
+                    "0c702ff8-416d-42e2-b8ef-dda48623796f"
+                ]
+            ]
+        ]
+    ]
+}

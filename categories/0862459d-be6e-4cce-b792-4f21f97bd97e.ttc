@@ -1,0 +1,185 @@
+# ToyTalk Category V3.5
+{
+    "type": "main",
+    "abbreviation": "",
+    "entries": [
+        {
+            "id": "5ca2ae23-15b2-48db-933a-78517ca05586",
+            "type": "activity",
+            "metadata": {
+                "activity_params": "default=yes;global_ruleset=yes",
+                "enabled": "yes"
+            }
+        },
+        {
+            "id": "5ccd71be-a89a-48a1-bcc5-4eb044c7287a",
+            "type": "response",
+            "metadata": {
+                "character": "1"
+            }
+        },
+        {
+            "id": "6ba68ae1-37eb-4b4c-8de2-5f7a1f698aa8",
+            "type": "interjections",
+            "metadata": {}
+        },
+        {
+            "id": "8b676655-b7fe-4ca5-a383-6eec82d998ff",
+            "type": "response",
+            "metadata": {
+                "character": "1",
+                "condition": "once_only",
+                "priority": "high"
+            }
+        },
+        {
+            "id": "a8bc90c6-7f51-4672-b5b8-4292a5b694fe",
+            "type": "behavior",
+            "metadata": {
+                "behavior_id": "ubehave_set_listening",
+                "behavior_params": {
+                    "set_listening": "no"
+                }
+            }
+        },
+        {
+            "id": "b8c0c161-2bd3-473f-b524-2fde06fea318",
+            "type": "event",
+            "metadata": {
+                "event_id": "uevent_global_nlp",
+                "event_params": "processed_text=LABEL_UNITY_PROCESSED_TEXT",
+                "interjection_params": "options={'repeat': 'no', 'segue_mode': 'event'};repeat=no;return=yes;segue_mode=event"
+            }
+        },
+        {
+            "id": "be73583c-1a5b-48a5-9bc1-dfa4c2771e68",
+            "type": "response",
+            "metadata": {
+                "character": "1"
+            }
+        },
+        {
+            "id": "d649a7c6-187e-43c6-a702-c0117cc6a245",
+            "type": "response",
+            "metadata": {
+                "character": "1"
+            }
+        },
+        {
+            "id": "d73c8eea-4e30-49e2-bb3e-07bb3b21f271",
+            "type": "fallback",
+            "metadata": {}
+        },
+        {
+            "id": "e9297068-9d1e-4e51-8b97-586a89ac92c1",
+            "type": "behavior",
+            "metadata": {
+                "behavior_id": "ubehave_set_listening",
+                "behavior_params": {
+                    "set_listening": "yes"
+                }
+            }
+        },
+        {
+            "id": "eab176e5-df8c-42cd-b008-eaeed41dcb2e",
+            "type": "intent",
+            "metadata": {
+                "intent_id": "64061f56-086c-4b81-8719-5676516ee5c6",
+                "interjection_params": "options={'segue_mode': 'event', 'repeat': 'no'};repeat=no;return=yes;segue_mode=event"
+            }
+        },
+        {
+            "id": "f098e238-2e82-4330-89ac-e49844baf8b0",
+            "type": "behavior",
+            "metadata": {
+                "behavior_id": "retry_rules"
+            }
+        },
+        {
+            "id": "f221379a-0f67-4fdd-8e45-0928c9ee98b8",
+            "type": "event",
+            "metadata": {
+                "event_id": "START_CONVERSATION"
+            }
+        },
+        {
+            "id": "f244caef-8ba7-42df-a85f-c54133d9e611",
+            "type": "intent",
+            "metadata": {
+                "intent_id": "a77543e1-6529-44b1-b132-6a66771a83c1",
+                "interjection_params": "options={'segue_mode': 'event', 'repeat': 'no'};repeat=no;return=yes;segue_mode=event"
+            }
+        },
+        {
+            "id": "f6c3cbff-9161-49cc-a48f-ef1c3ca7bba4",
+            "type": "rule",
+            "metadata": {}
+        },
+        {
+            "id": "fa789ac5-4666-44ad-bf45-0eaeae690a5f",
+            "type": "behavior",
+            "metadata": {
+                "behavior_id": "repeat"
+            }
+        },
+        {
+            "id": "fd3bccc9-419a-48e4-8095-61b2912c9e25",
+            "type": "behavior",
+            "metadata": {
+                "behavior_id": "ubehave_person_track",
+                "behavior_params": {
+                    "track_person": "yes"
+                }
+            }
+        }
+    ],
+    "structure": [
+        "5ca2ae23-15b2-48db-933a-78517ca05586",
+        [
+            "f221379a-0f67-4fdd-8e45-0928c9ee98b8",
+            [
+                "8b676655-b7fe-4ca5-a383-6eec82d998ff",
+                [
+                    "fd3bccc9-419a-48e4-8095-61b2912c9e25",
+                    [
+                        "d73c8eea-4e30-49e2-bb3e-07bb3b21f271",
+                        [
+                            "be73583c-1a5b-48a5-9bc1-dfa4c2771e68",
+                            [
+                                "f098e238-2e82-4330-89ac-e49844baf8b0"
+                            ]
+                        ]
+                    ],
+                    [
+                        "f6c3cbff-9161-49cc-a48f-ef1c3ca7bba4",
+                        [
+                            "d649a7c6-187e-43c6-a702-c0117cc6a245"
+                        ]
+                    ]
+                ]
+            ],
+            [
+                "5ccd71be-a89a-48a1-bcc5-4eb044c7287a"
+            ]
+        ],
+        "6ba68ae1-37eb-4b4c-8de2-5f7a1f698aa8",
+        [
+            "eab176e5-df8c-42cd-b008-eaeed41dcb2e",
+            [
+                "a8bc90c6-7f51-4672-b5b8-4292a5b694fe"
+            ]
+        ],
+        [
+            "f244caef-8ba7-42df-a85f-c54133d9e611",
+            [
+                "e9297068-9d1e-4e51-8b97-586a89ac92c1"
+            ]
+        ],
+        [
+            "b8c0c161-2bd3-473f-b524-2fde06fea318",
+            [
+                "fa789ac5-4666-44ad-bf45-0eaeae690a5f"
+            ]
+        ]
+    ]
+}

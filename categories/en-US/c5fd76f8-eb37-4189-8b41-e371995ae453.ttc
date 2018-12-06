@@ -1,0 +1,40 @@
+# ToyTalk Category V3.5
+{
+    "type": "override",
+    "entries": [
+        {
+            "id": "02121e91-eebe-4d01-bff3-9c02d4119029",
+            "metadata": {
+                "value": "Test Patterns"
+            }
+        },
+        {
+            "id": "3fa439cd-0626-48de-8478-792114409cb2",
+            "metadata": {
+                "manual_phonemes": false,
+                "placeholder_audio": false,
+                "status": "final",
+                "value": "[Label unity_processed_text]"
+            }
+        },
+        {
+            "id": "88507dc0-cc72-4887-ae30-2828226d01cc",
+            "metadata": {
+                "value": "Capture Contractions"
+            }
+        },
+        {
+            "id": "b0ad8899-b94f-4f35-ae36-5921b42de033",
+            "metadata": {}
+        },
+        {
+            "id": "f3f63b25-ba47-4a87-a572-d750f698e599",
+            "metadata": {
+                "manual_phonemes": false,
+                "placeholder_audio": false,
+                "status": "final",
+                "value": "Let's test patterns"
+            }
+        }
+    ]
+}

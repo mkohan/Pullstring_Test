@@ -1,0 +1,57 @@
+# ToyTalk Category V3.5
+{
+    "type": "override",
+    "entries": [
+        {
+            "id": "113bc55f-842e-41b2-8765-2ec74f6ff5bf",
+            "metadata": {}
+        },
+        {
+            "id": "6c5a3a4b-bbc1-46d0-8eca-bcde1de10503",
+            "metadata": {}
+        },
+        {
+            "id": "7b4bcfbd-17e7-4782-ac74-14ac4512dae7",
+            "metadata": {}
+        },
+        {
+            "id": "86c03346-d55f-477a-851b-e5b87c76274c",
+            "metadata": {
+                "value": "Swap To EmbodiedBo"
+            }
+        },
+        {
+            "id": "892e3893-bc6b-4a81-9a0c-9fc97b1ff949",
+            "metadata": {}
+        },
+        {
+            "id": "8c2a50fe-a987-42fb-8f6b-17c1a8d27fdf",
+            "metadata": {
+                "value": "Swap to AboutBo"
+            }
+        },
+        {
+            "id": "946f07c0-e857-480f-a60b-eb18ab51fec1",
+            "metadata": {}
+        },
+        {
+            "id": "9e699252-1737-4399-a47e-05abb873134b",
+            "metadata": {
+                "value": "Swapping Projects"
+            }
+        },
+        {
+            "id": "c7dc27d2-2318-452b-b33f-7583ec390621",
+            "metadata": {}
+        },
+        {
+            "id": "cd92ff01-c9b1-449b-abb3-d9957c688b3b",
+            "metadata": {
+                "manual_phonemes": false,
+                "placeholder_audio": false,
+                "status": "final",
+                "value": "Lets go to AboutBo"
+            }
+        }
+    ]
+}
