@@ -111,6 +111,13 @@
             }
         },
         {
+            "id": "54f387ed-4af2-4b00-8e6c-d98a5718cf1b",
+            "type": "response",
+            "metadata": {
+                "character": "1"
+            }
+        },
+        {
             "id": "5a632b8a-d796-494c-ada6-f3b02ce6e05c",
             "type": "behavior",
             "metadata": {
@@ -248,6 +255,13 @@
             }
         },
         {
+            "id": "d00aacca-04e7-452b-bfec-0041e45427ff",
+            "type": "response",
+            "metadata": {
+                "character": "1"
+            }
+        },
+        {
             "id": "d1340401-fd3c-461b-bc8c-d024b37f238f",
             "type": "event",
             "metadata": {
@@ -332,6 +346,12 @@
                 ],
                 [
                     "9bed429b-8b48-400d-be17-b454d35a5a2a",
+                    [
+                        "d00aacca-04e7-452b-bfec-0041e45427ff"
+                    ],
+                    [
+                        "54f387ed-4af2-4b00-8e6c-d98a5718cf1b"
+                    ],
                     [
                         "5dd5b611-9873-4145-abb9-2af9407c2b44"
                     ]

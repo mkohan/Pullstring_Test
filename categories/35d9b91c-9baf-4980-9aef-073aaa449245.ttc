@@ -302,7 +302,7 @@
             "id": "d7f289e6-4529-4df8-8a36-4520eeff4c93",
             "type": "rule",
             "metadata": {
-                "interjection_params": "follow_fallback=no;options={'segue_mode': 'event', 'response_id': '', 'follow_fallback': 'no', 'repeat': 'no'};repeat=no;return=yes;segue_mode=event;uber=no"
+                "interjection_params": "follow_fallback=no;options={'segue_mode': 'event', 'repeat': 'no', 'follow_fallback': 'no', 'response_id': ''};repeat=no;return=yes;segue_mode=event;uber=no"
             }
         },
         {

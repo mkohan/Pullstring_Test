@@ -100,6 +100,15 @@
             }
         },
         {
+            "id": "54f387ed-4af2-4b00-8e6c-d98a5718cf1b",
+            "metadata": {
+                "manual_phonemes": false,
+                "placeholder_audio": false,
+                "status": "final",
+                "value": "Back in original context"
+            }
+        },
+        {
             "id": "5a632b8a-d796-494c-ada6-f3b02ce6e05c",
             "metadata": {
                 "value": "Look At Me Prompt"
@@ -197,6 +206,15 @@
         {
             "id": "ceadba07-5257-4b98-b189-b99928a13b48",
             "metadata": {}
+        },
+        {
+            "id": "d00aacca-04e7-452b-bfec-0041e45427ff",
+            "metadata": {
+                "manual_phonemes": false,
+                "placeholder_audio": false,
+                "status": "final",
+                "value": "Here again in the original context"
+            }
         },
         {
             "id": "d1340401-fd3c-461b-bc8c-d024b37f238f",
